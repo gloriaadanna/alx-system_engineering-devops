@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Pings an IP address passed as an argument
+
+if [[
