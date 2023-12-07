@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# to  find out what’s keeping your Ubuntu container’s Nginx installation
+file=/etc/nginx/sites-enabled/default
+sed -i 's/8080 default/80 default/' $file
+sudo service nginx restart
